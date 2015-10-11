@@ -1,0 +1,19 @@
+{
+  "name": "clients-nearby",
+  "version": "0.0.1",
+  "description": "Find clients living in a set distance from our office ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omidfi/clients-nearby.git"
+  },
+  "author": "Omid Hezaveh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omidfi/clients-nearby/issues"
+  },
+  "homepage": "https://github.com/omidfi/clients-nearby"
+}
