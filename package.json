@@ -4,7 +4,7 @@
   "description": "Find clients living in a set distance from our office ",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/omidfi/clients-nearby/issues"
   },
-  "homepage": "https://github.com/omidfi/clients-nearby"
+  "homepage": "https://github.com/omidfi/clients-nearby",
+  "devDependencies": {
+  }
 }
