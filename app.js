@@ -45,7 +45,14 @@ var ClientsNearby = (function(){
       return 0;
     }
     var closeByClientsSorted = closeByClients.sort(compareUserID);
-    console.log("Clients Living In a 100KM Radius: " + closeByClientsSorted);
+
+    report(closeByClientsSorted);
+  }
+  function report(contacts) {
+    console.log('Clients who live max 100 Kms from our office: \n');
+    contacts.map(contact => {
+      console.log(` id: ${contact.user_id}, Name: ${contact.name}, Distance: ${contact.distance.toFixed(1)}Km`);
+    });
   }
 
   function init() {
@@ -73,3 +80,4 @@ var ClientsNearby = (function(){
 })();
 
 ClientsNearby.init();
+module.exports = ClientsNearby;
