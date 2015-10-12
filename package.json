@@ -2,7 +2,7 @@
   "name": "clients-nearby",
   "version": "0.0.1",
   "description": "Find clients living in a set distance from our office ",
-  "main": "app.js",
+  "main": "clientsNearby.js",
   "scripts": {
     "test": ""
   },
